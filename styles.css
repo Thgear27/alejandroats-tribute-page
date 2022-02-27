@@ -5,6 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
+/* TITULO */
 #title {
     background-color: var(--main-color);
     height: 60px;
@@ -17,11 +18,48 @@
     font-family: 'Lexend Deca', Arial;
 }
 
+/* CONTENEDOR PRINCIPAL */
 #main {
     width: 70%;
     margin: 0 auto;
-    background-color: gainsboro;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
+
+/* INFOMACION PRINCIPAL  */
+#principal-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#tribute-info {
+    flex: 3;
+}
+
+#image {
+    align-self: center;
+    max-width: 100%;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+#img-caption {
+    align-self: center;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+/* PHRASE */
 
 footer {
     background-color: black;
