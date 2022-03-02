@@ -58,6 +58,32 @@ body {
     flex: 3;
 }
 
+#tribute-info p {
+    margin-right: 30px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+#icons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-right: 30px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+}
+
+#icons i {
+    font-size: 25px;
+    color: rgb(90, 90, 90);
+}
+
+#icons i:hover {
+    font-size: 25px;
+    color: hsl(0, 0%, 15%);
+}
+
 #image {
     align-self: center;
     max-width: 100%;
@@ -72,6 +98,20 @@ body {
 hr {
     margin: 10px 30px;
 }
+
+/* PROGRAMING LOGOS */
+#programming-languages {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#programming-languages img{
+    width: 80px;
+    margin: 0 20px;
+}   
 
 /* PHRASE */
 #phrase-container{
@@ -88,4 +128,12 @@ hr {
 
 #biography div {
     margin: 20px;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
