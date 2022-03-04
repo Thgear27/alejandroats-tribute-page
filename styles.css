@@ -196,4 +196,8 @@ footer {
     footer p {
         width: 80%;
     }
+    #icons {
+        justify-content: center;
+        margin: unset;
+    }
 }
