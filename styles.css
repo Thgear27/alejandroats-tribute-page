@@ -114,12 +114,12 @@ hr {
 }
 
 #programming-languages img{
-    width: 80px;
+    width: 70px;
     margin: 0 20px;
 }   
 
 /* PHRASE */
-#phrase-container{
+#phrase-container {
     font-family: 'Monda', sans-serif;
     text-align: center;
     margin: 20px 0;
@@ -147,4 +147,53 @@ footer {
     align-items: center;
     justify-content: center;
     font-family: 'Monda', sans-serif;
+}
+
+@media (max-width: 1000px) {
+    #title {
+        top: 0;
+    }
+
+    #phrase-container, #biography {
+        font-size: 15px;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main {
+        width: 90%;
+    }
+
+    #principal-information {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    #tribute-info p {
+        text-align: center;
+        margin: 30px 30px 0 30px ;
+    }
+
+    #programming-languages img{
+        width: 40px;
+        margin: 0 5px;
+    }   
+
+    #phrase-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #biography {
+        width: 80%;
+    }
+    
+    footer p {
+        width: 90%;
+    }
 }
